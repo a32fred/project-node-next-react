@@ -28,45 +28,45 @@ function Home() {
             </div>
         </nav>
 
-        <section class="top" id="top">
-            <div class="max-width">
-                <div class="top-content">
-                    <div class="text-1">Temos a solução</div>
-                    <div class="text-2">que a sua empresa precisa</div>
-                    <div class="text-3">Podemos ajudar a sua empresa!</div>
+        <section className="top" id="top">
+            <div className="max-width">
+                <div className="top-content">
+                    <div className="text-1">Temos a solução</div>
+                    <div className="text-2">que a sua empresa precisa</div>
+                    <div className="text-3">Podemos ajudar a sua empresa!</div>
                     <a href="#">Entrar em Contato</a>
                 </div>
             </div>
         </section>
 
-        <section class="services" id="services">
-            <div class="max-width">
-                <h2 class="title">Serviços</h2>
-                <div class="serv-content">
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-code"></i>
-                            <div class="text">
+        <section className="services" id="services">
+            <div className="max-width">
+                <h2 className="title">Serviços</h2>
+                <div className="serv-content">
+                    <div className="card">
+                        <div className="box">
+                            <i className="fas fa-code"></i>
+                            <div className="text">
                                 Serviço 1
                             </div>
                             <p>Aenean consectetur feugiat eros at aliquet. Integer ac nisi dui. Nam maximus nunc non aliquet aliquet.</p>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-laptop-code"></i>
-                            <div class="text">
+                    <div className="card">
+                        <div className="box">
+                            <i className="fas fa-laptop-code"></i>
+                            <div className="text">
                                 Serviço 2
                             </div>
                             <p>Aenean consectetur feugiat eros at aliquet. Integer ac nisi dui. Nam maximus nunc non aliquet aliquet.</p>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="box">
-                            <i class="fas fa-mobile-alt"></i>
-                            <div class="text">
+                    <div className="card">
+                        <div className="box">
+                            <i className="fas fa-mobile-alt"></i>
+                            <div className="text">
                                 Serviço 3
                             </div>
                             <p>Aenean consectetur feugiat eros at aliquet. Integer ac nisi dui. Nam maximus nunc non aliquet aliquet.</p>
@@ -76,59 +76,59 @@ function Home() {
             </div>
         </section>
 
-        <section class="contact" id="contact">
-            <div class="max-width">
-                <h2 class="title">Contato</h2>
-                <div class="contact-content">
-                    <div class="column left">
+        <section className="contact" id="contact">
+            <div className="max-width">
+                <h2 className="title">Contato</h2>
+                <div className="contact-content">
+                    <div className="column left">
                         <p>Aliquam facilisis vitae ante eu consequat. Nullam a mi vel metus tristique commodo id quis diam.</p>
-                        <div class="icons">
-                            <div class="row">
-                                <i class="fas fa-user"></i>
-                                <div class="info">
-                                    <div class="head">Empresa</div>
-                                    <div class="sub-title">Celke</div>
+                        <div className="icons">
+                            <div className="row">
+                                <i className="fas fa-user"></i>
+                                <div className="info">
+                                    <div className="head">Empresa</div>
+                                    <div className="sub-title">Celke</div>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="info">
-                                    <div class="head">Endereço</div>
-                                    <div class="sub-title">Avenida Winston Churchill</div>
+                            <div className="row">
+                                <i className="fas fa-map-marker-alt"></i>
+                                <div className="info">
+                                    <div className="head">Endereço</div>
+                                    <div className="sub-title">Avenida Winston Churchill</div>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <i class="fas fa-envelope"></i>
-                                <div class="info">
-                                    <div class="head">E-mail</div>
-                                    <div class="sub-title">cesar@celke.com.br</div>
+                            <div className="row">
+                                <i className="fas fa-envelope"></i>
+                                <div className="info">
+                                    <div className="head">E-mail</div>
+                                    <div className="sub-title">cesar@celke.com.br</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="column right">
-                        <div class="text">Mensagem de Contato</div>
+                    <div className="column right">
+                        <div className="text">Mensagem de Contato</div>
                         <form>
-                            <div class="fields">
-                                <div class="field name">
+                            <div className="fields">
+                                <div className="field name">
                                     <input type="text" placeholder="Digite o nome" required/>
                                 </div>
-                                <div class="field email">
+                                <div className="field email">
                                     <input type="email" placeholder="Digite o e-mail" required/>
                                 </div>
                             </div>
 
-                            <div class="field">
+                            <div className="field">
                                 <input type="text" placeholder="Digite o assunto" required/>
                             </div>
 
-                            <div class="field textarea">
+                            <div className="field textarea">
                                 <textarea cols="30" rows="10" placeholder="Digite o conteúdo" required></textarea>
                             </div>
 
-                            <div class="button-area">
+                            <div className="button-area">
                                 <button type="submit">Enviar</button>
                             </div>
                         </form>
